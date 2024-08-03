@@ -1,0 +1,383 @@
+
+
+body {
+  height: 4000px;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.clearfix {
+  clear: both;
+}
+
+
+
+header nav {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+}
+header nav h2 {
+  float: left;
+  text-transform: capitalize;
+}
+header nav h2 span {
+  color: #2ecc71;
+}
+header nav ul {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+}
+header nav ul li {
+  float: left;
+  padding: 10px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul li.active a,
+header nav ul li a:hover {
+  color: #2ecc71;
+}
+/* end header rules */
+
+
+
+
+/* start features  */
+.features {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.features .feat {
+  float: left;
+  width: 33.33333%;
+  height: 150px;
+}
+.features .feat h2 {
+  text-transform: capitalize;
+  color: #555;
+}
+.features .feat p {
+  line-height: 1.7;
+  color: #888;
+  padding: 0 20px 0 0;
+}
+/* end features  */
+
+
+
+
+/* Start About me */
+.about-me {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.about-me .image {
+  float: left;
+  width: 40%;
+}
+.about-me .image img {
+  width: 95%;
+}
+.about-me .info {
+  float: left;
+  width: 53%;
+}
+.about-me .info h2 {
+  margin: 10px 0 10px 40px;
+}
+.about-me .info > p {
+  margin: 0 0 8px 40px;
+}
+.about-me .info > p:last-of-type {
+  margin-top: 10px;
+}
+.about-me .info p {
+  line-height: 1.7;
+  color: #777;
+}
+.about-me .info .hobbies {
+  overflow: hidden;
+  margin: 10px 0 0 40px;
+}
+
+.about-me .info .hobbies .content {
+  float: left;
+  width: 50%;
+  min-height: 100px;
+}
+about-me .info .hobbies .content h3 {
+  color: #555;
+  margin-top: 10px;
+}
+.about-me .info .hobbies .content .icon {
+  float: left;
+  width: 12%;
+  margin-right: 5%;
+}
+.about-me .info .hobbies .content .icon img {
+  max-width: 100%;
+  margin: 35px 10px 15px 0;
+}
+about-me .info .hobbies .content .text {
+  width: 83%;
+  float: left;
+  text-align: justify;
+  margin-top: 15px;
+}
+/* End  About me */
+
+
+
+
+/* Start my Skills  */
+.my-skills {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.my-skills .skills,
+.my-skills .progerss {
+  width: 50%;
+  float: left;
+  padding-bottom: 5px;
+}
+.my-skills .skills h2 {
+  margin: 10px 0 10px 40px;
+}
+.my-skills .skills p {
+  margin: 0 0 8px 40px;
+  line-height: 1.7;
+  color: #777;
+}
+.my-skills .skills > p:last-of-type {
+  margin-top: 10px;
+}
+.my-skills .skills button {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.my-skills .progerss .tech {
+  margin-left: 50px;
+}
+.my-skills .progerss .tech h3 {
+  color: #555;
+}
+.my-skills .progerss .tech div {
+  background-color: #f2f2f2;
+  height: 25px;
+}
+.my-skills .progerss .tech div span {
+  background-color: #2dcc70;
+  height: 25px;
+  display: block;
+  color: #fff;
+  text-align: right;
+  line-height: 25px;
+  font-weight: bold;
+}
+/* End my skills */
+
+
+
+
+
+/* Start resume */
+.Resume {
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.Resume h2 {
+  text-transform: uppercase;
+  color: #888;
+  font-weight: bold;
+}
+.Resume p {
+  padding: 20px 20px;
+  color: #666;
+  line-height: 1.7;
+}
+.Resume button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* End resume */
+
+
+
+/* Start Testimonials */
+.Testimonials {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.Testimonials q {
+  color: #555;
+  line-height: 1.7;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  font: italic bold 18px/1.8 Tahoma, Arial;
+}
+.Testimonials h3 {
+  color: #777;
+}
+.Testimonials ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.Testimonials ul li {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #2dcc70;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.Testimonials ul li:hover,
+.Testimonials ul li.active {
+  background-color: #2dcc70;
+}
+
+/* End Testimonials */
+
+
+
+
+
+/* Start portfolio*/
+.Portfolio {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.Portfolio .our-work {
+  overflow: hidden;
+}
+.Portfolio h2{
+ color:#777;
+}
+.Portfolio p{
+ line-height: 1.7;
+ color: #666;
+ margin-bottom: 30px;
+}
+.Portfolio .our-work > div {
+  float: left;
+  width: 33.333333%;
+  margin-bottom: 10px;
+}
+
+.Portfolio .our-work > div img {
+  width: 92%;
+  margin: 10px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 10px #ccc;
+   
+}
+/* end portfolio*/
+
+
+/* Start Contact me*/
+.contact-me {
+  background-color: #252f31;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.contact-me h2 {
+  color: #fff;
+  margin-left:40px ;
+}
+.contact-me p {
+  color: #6a6e71;
+  margin-left: 40px;
+  line-height: 1.7;
+}
+.contact-info {
+  width: 50%;
+  margin-right:5%;
+  float: left;
+}
+.contact-form {
+  width: 45%;
+  float: left;
+}
+.contact-form label{
+  display: block;
+  color: #d1d6da; 
+  margin-bottom: 10px;
+  margin: 10px 0;
+}
+.contact-form input[type="text"]{
+  background-color: #485557;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+}
+.contact-form textarea{
+  background-color: #485557;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  margin-bottom: 10px;
+  height: 300px;
+}
+.contact-form input[type="submit"]{
+  background-color: #191e22;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 10px;
+}
+.contact-me p strong{
+  color: #d1d6da;
+}
+/* End Contact me*/
+
+
+
+
+
+/* Start footer */
+.footer {
+  background-color: #191e22;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+}
+.footer ul li{
+  display:inline-block;
+  margin-left:10px; 
+}
+/* End footer */
+/* Start My Framework */
+.my-button {
+  background: none;
+  border: 3px solid #2dcc70;
+  padding: 10px 30px;
+  color: #2dcc70;
+  font-weight: bold;
+}
+/* End My Framework */
